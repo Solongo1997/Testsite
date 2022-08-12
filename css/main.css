@@ -1,0 +1,164 @@
+.header {
+  padding: 20px 0;
+}
+.header .main-menu {
+  list-style: none;
+}
+.header .main-menu > li {
+  float: left;
+  margin-left: 30px;
+}
+.header .main-menu > li a {
+  position: relative;
+  font-family: "Roboto", sans-serif;
+  color: #000;
+  font-size: 18px;
+}
+.header .main-menu > li a :hover {
+  color: #8d2b37;
+  text-decoration: none;
+}
+.header .main-menu > li a :hover::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 70px;
+  height: 3px;
+  border-radius: 10px;
+  background-color: #8d2b37;
+}
+.caption {
+  position: absolute;
+  z-index: 10;
+  top: 30%;
+  left: 10%;
+  width: 45%;
+}
+.caption h1 {
+  color: #000;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 70px;
+}
+.caption p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  color: #333;
+}
+.caption button {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  padding: 8px 25px;
+  background-color: #8d2b37;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+.text-default-button {
+  font-family: "Roboto", sans-serif;
+  color: #000;
+}
+.text-default-button:hover {
+  text-decoration: none;
+}
+.about-section {
+  margin-top: 80px;
+}
+.middle-content {
+  background-image: url(../images/pic2.jpg);
+  background-size: cover;
+  background-position: 0 50%;
+  color: #fff;
+  margin: 100px 0;
+}
+.middle-content h3 {
+  color: #fff;
+}
+.middle-content .overlay {
+  padding: 100px 0;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.post img {
+  height: 285px;
+  border-radius: 5px;
+}
+.post .title {
+  font-family: "Roboto", sans-serif;
+  margin-top: 10px;
+  margin-bottom: 2px;
+  font-weight: 700;
+  color: #000;
+  font-size: 18px;
+}
+.post .date {
+  font-size: 12px;
+}
+.post .blogp {
+  margin-top: 5px;
+}
+.post .remo {
+  color: #000;
+  margin-top: 2px;
+}
+.footer-menu {
+  padding-left: 0;
+  list-style: none;
+}
+.footer-menu li {
+  float: left;
+  margin-right: 20px;
+}
+.footer-menu li a {
+  color: #000;
+}
+.footer {
+  margin-top: 150px;
+  border-top: 1px solid #c2c2c2;
+  color: #000000;
+  padding: 20px 0;
+}
+.section-title {
+  position: relative;
+  height: 60px;
+}
+.section-title h1 {
+  position: absolute;
+  font-size: 38px;
+  font-weight: bold;
+  z-index: 100;
+}
+.section-title .shadow {
+  top: 5px;
+  left: 10px;
+  color: rgba(121, 117, 117, 0.2);
+  font-size: 38px;
+  font-weight: bold;
+  position: absolute;
+}
+/* -------------------------------- */
+.test-menu{
+  list-style: none;
+}
+.test-menu > li{
+  float: left;
+  margin-right: 20px;
+}
+.test-menu >li a {
+  color: #000000;
+  text-decoration: none;
+}
+.test-menu > li:last-child{
+  margin: 0;
+}
+.test-menu > li.active{
+  padding-bottom: 10px;
+  border-bottom: 3px solid black;
+}
+.test-menu li.active a {
+  font-weight: bold;
+}
+.animate{
+  position: absolute;
+}

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&family=Poppins:wght@100;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/uikit.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Nike</title>
+</head>
+
+<body>
+    <!-- header -->
+    <div class="header">
+        <div class="uk-container">
+            <div class="uk-flex uk-flex-middle">
+                <div class="uk-width-auto">
+                    <img src="images/logo.png">
+                </div>
+                <div class="uk-width-expand uk-flex uk-flex-right">
+                    <div>
+                        <ul class="main-menu">
+                            <li><a href="test.html">Menu</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Shop</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /header -->
+    <!-- slider -->
+    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="animation: fade">
+
+        <ul class="uk-slideshow-items" uk-height-viewport="offset-top: true; offset-bottom:0">
+
+            <li>
+                <div class="caption">
+                    <h1>NEW BRAND</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, ut veritatis ipsum temporibus<br>
+                        deserunt qui nostrum architecto quaerat necessitatibus nemo provident voluptates nesciunt!</p>
+                    <button>READ MORE</button>
+                </div>
+                <img src="images/za.png" alt="" uk-cover>
+            </li>
+            <li>
+                <div class="caption">
+                    <h1>NEW BRAND2</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, ut veritatis ipsum temporibus<br>
+                        deserunt qui nostrum architecto quaerat necessitatibus nemo provident voluptates nesciunt!</p>
+                    <button>READ MORE</button>
+                </div>
+                <img src="images/zi.png" alt="" uk-cover>
+            </li>
+            <li>
+                <div class="caption">
+                    <h1>NEW BRAND3</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, ut veritatis ipsum temporibus<br>
+                        deserunt qui nostrum architecto quaerat necessitatibus nemo provident voluptates nesciunt!</p>
+                    <button>READ MORE</button>
+                </div>
+                <img src="images/zi.png" alt="" uk-cover>
+            </li>
+        </ul>
+
+        <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous
+            uk-slideshow-item="previous"></a>
+        <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next
+            uk-slideshow-item="next"></a>
+    </div>
+    <!-- /slider -->
+    <!-- about -->
+    <div class="about-section uk-container">
+        <div class="uk-child-width-1-2" uk-grid>
+            <div><img src="images/pic.jpg" alt=""></div>
+            <div class="uk-flex uk-flex-middle">
+                <div>
+                    <div class="section-title">
+                        <h1>ABOUT US</h1>
+                        <div class="shadow">ABOUT US</div>
+                    </div>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id illum neque, perspiciatis voluptate
+                        excepturi non provident reprehenderit assumenda beatae ab voluptatibus quae magnam repellendus
+                        repellat tempora laborum perferendis quasi laudantium ut rerum dolorum iure vel suscipit quia!
+                        In, perferendis soluta natus iusto aspernatur architecto, animi nobis incidunt quaerat repellat
+                        sapiente!</p>
+                    <h6 class="uk-text-bold"><a href="#" class="text-default-button">READ MORE</a> </h6>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /about -->
+    <!-- parallax -->
+    <div class="middle-content" uk-parallax="bgy: -200">
+        <div class="overlay">
+            <h3 class="uk-text-bold uk-text-center uk-margin-remove-buttom">2022 created by me</h3>
+            <p class="uk-text-center uk-margin-remove-top">Hire me</p>
+            <p class="uk-text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati fugiat,
+                tempore libero, animi quae saepe
+                eum atque, aspernatur<br> odio totam sint in amet quis! Ipsa quas aperiam ad, reprehenderit error
+                exercitationem
+                dolorum nam consectetur<br> soluta quam impedit est vitae cupiditate cumque ducimus. Culpa sed maiores
+                ratione
+                ducimus, aperiam vel ex assumenda, quibusdam cum<br> amet optio nostrum saepe. A, eaque magni?</p>
+        </div>
+    </div>
+    <!-- /parallax -->
+    <!-- blog -->
+    <div class="blog uk-container">
+        <h1>BLOG</h1>
+        <div class="uk-grid uk-margin-large-top uk-child-width-1-4">
+            <div class="post">
+                <img src="images/slide1.jpg" alt="">
+                <h5 class="title">NEW</h5>
+                <i class="date">8/12/2022 12:22AM</i>
+                <p class="blogp">Lorem ipsum dolor sit amet <br>consectetur adipisicing elit.</p>
+                <a href="#" class="remo">READ MORE</a>
+            </div>
+            <div class="post">
+                <img src="images/slide4.jpg" alt="">
+                <h5 class="title">NEW</h5>
+                <i class="date">8/12/2022 12:22AM</i>
+                <p class="blogp">Lorem ipsum dolor sit amet <br>consectetur adipisicing elit.</p>
+                <a href="#" class="remo">READ MORE</a>
+            </div>
+            <div class="post">
+                <img src="images/slide2.jpg" alt="">
+                <h5 class="title">NEW2</h5>
+                <i class="date">8/12/2022 12:22AM</i>
+                <p class="blogp">Lorem ipsum dolor sit amet<br> consectetur, adipisicing elit.</p>
+                <a href="#" class="remo">READ MORE</a>
+            </div>
+            <div class="post">
+                <img src="images/slide3.jpg" alt="">
+                <h5 class="title">NEW3</h5>
+                <i class="date">8/12/2022 12:22AM</i>
+                <p class="blogp">Lorem ipsum dolor sit amet<br> consectetur, adipisicing elit.</p>
+                <a href="#" class="remo">READ MORE</a>
+            </div>
+        </div>
+    </div>
+    <!-- /blog -->
+    <!-- footer -->
+    <div class="uk-container uk-margin-large-top footer">
+        <div class="uk-grid">
+            <div class="uk-width-auto">
+                <ul class="footer-menu">
+                    <li><a href="test.html">Menu</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="uk-width-expand uk-text-right">
+                &copy; 2022 Copyright
+            </div>
+        </div>
+    </div>
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+</body>
+
+</html>
